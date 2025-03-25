@@ -1,0 +1,205 @@
+.poster {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh; 
+    border-bottom: 3px solid green;
+}
+
+.home-button {
+    position: absolute; 
+    top: 70%; 
+    left: 57%;
+    transform: translate(-50%, -50%); 
+    z-index: 20;
+    background-color: rgb(58, 174, 58);
+    height: 80px;
+    width: 300px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rovdies' , sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease-in-out;
+}
+.home-button:hover {
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.9);
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+.letter{
+    z-index: 20;
+    position: absolute; 
+    top: 25%;
+    left: 50%;
+    font-weight: 700;
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.diets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.card-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 700;
+
+}
+.lab{
+    background-color:rgb(58, 174, 58);
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    border: 3px solid green;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.9);
+}
+
+.diets-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 750px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .diets-link {
+    text-decoration: none;
+    color: #007bff; 
+  }
+  
+  .diets-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .diets-link:hover .diets-title {
+    color: #0056b3; 
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .diets-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;  
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .diets-link {
+    text-decoration: none;
+    color: green;
+  }
+  
+  .diets-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+  }
+  
+  .diets-link:hover .diets-title {
+    color: #1fcf27; 
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .image {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-button{
+    background-color: rgb(58, 174, 58);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rovdies' , sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease-in-out;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .card-button:hover {
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.9);
+}
+  
